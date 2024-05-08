@@ -1,0 +1,60 @@
+name: LPCXpresso55S69 LED Blinky CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cmake ninja-build gcc-arm-none-eabi binutils-arm-none-eabi
+
+    - name: Configure
+      run: cmake -B build -S . -G Ninja -DCMAKE_TOOLCHAIN_FILE=<nxp-toolchain-file>
+
+    - name: Build
+      run: cmake --build build
+
+    - name: Run Unit Tests
+      run: cmake --build build --target test
+
+    - name: Package Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: firmware
+        path: build/led_blinky.bin
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run Static Analysis
+      run: |
+        # Install and run static analysis tools (e.g., cppcheck, clang-tidy)
+        sudo apt-get install -y cppcheck
+        cppcheck --enable=all --inline-suppr --inconclusive --force .
+
+  format:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Check Code Formatting
+      run: |
+        # Install and run code formatting tools (e.g., clang-format)
+        sudo apt-get install -y clang-format
+        clang-format -i --style=file $(find . -name '*.c' -or -name '*.h')
+        git diff --exit-code
