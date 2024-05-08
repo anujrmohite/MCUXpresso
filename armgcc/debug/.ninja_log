@@ -1,0 +1,24 @@
+# ninja log v5
+3	38	1715168414530047834	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/gcc/startup_LPC55S69_cm33_core0.S.obj	9b82884334dcec14
+1	144	1715168414638045310	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/board.c.obj	1a0a40cc3c0d157f
+3	156	1715168414646045123	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/system_LPC55S69_cm33_core0.c.obj	cf58dab1efe015ac
+4	159	1715168414638045310	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/fsl_common_arm.c.obj	920224e1a29947b0
+7	163	1715168414646045123	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/fsl_gpio.c.obj	c5a2a2051bb61594
+1	165	1715168414654044936	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/led_blinky.c.obj	bd16eb0f4b562806
+5	168	1715168414658044842	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/fsl_flexcomm.c.obj	5df09d1061ca9e9e
+4	173	1715168414662044749	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/fsl_common.c.obj	2d3619d2bbd7e169
+3	185	1715168414666044655	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/components/uart/fsl_adapter_usart.c.obj	5d06877783886a14
+163	192	1715168414686044188	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/utilities/fsl_memcpy.S.obj	88234e18b3652630
+2	195	1715168414686044188	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/clock_config.c.obj	edd0a7dd17ec7643
+1	201	1715168414694044001	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/pin_mux.c.obj	6ae693fb4e9ae5cb
+2	204	1715168414698043907	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/components/lists/fsl_component_generic_list.c.obj	8de1e7636882bb44
+38	221	1715168414714043533	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/fsl_power.c.obj	1d06f8daf5393f1a
+7	225	1715168414718043440	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/fsl_usart.c.obj	da51172a7042a312
+156	233	1715168414722043346	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/utilities/fsl_sbrk.c.obj	c65b8ed5489d4c2
+159	242	1715168414734043066	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/utilities/fsl_syscall_stub.c.obj	51f40b128ed3aa69
+144	279	1715168414770042224	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/fsl_reset.c.obj	737f2b1bb8119433
+165	294	1715168414786041850	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/utilities/debug_console_lite/fsl_assert.c.obj	46e0bb2fa6d9a62b
+3	323	1715168414814041195	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/fsl_clock.c.obj	2cdd2cc066e0ee72
+173	335	1715168414826040915	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/utilities/debug_console_lite/fsl_debug_console.c.obj	e1b7728f2afeb56c
+168	352	1715168414842040541	CMakeFiles/led_blinky.elf.dir/home/anuj/Documents/example_npx/devices/LPC55S69/utilities/str/fsl_str.c.obj	9a6a8e535f617df6
+352	391	1715168414882039606	led_blinky.elf	dc3e4bc2b1af77c5

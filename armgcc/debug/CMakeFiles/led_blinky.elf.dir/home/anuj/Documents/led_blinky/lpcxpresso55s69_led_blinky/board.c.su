@@ -1,0 +1,2 @@
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/board.c:24:6:BOARD_InitDebugConsole	16	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/board.c:36:6:BOARD_InitDebugConsole_Core1	16	static

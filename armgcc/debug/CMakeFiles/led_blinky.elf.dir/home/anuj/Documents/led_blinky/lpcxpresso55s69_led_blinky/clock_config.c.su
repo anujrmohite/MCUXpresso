@@ -1,0 +1,7 @@
+/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/./fsl_power.h:385:20:POWER_DisablePD	16	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/clock_config.c:52:6:BOARD_InitBootClocks	8	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/clock_config.c:79:6:BOARD_BootClockFRO12M	8	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/clock_config.c:127:6:BOARD_BootClockFROHF96M	8	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/clock_config.c:183:6:BOARD_BootClockPLL100M	40	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/clock_config.c:259:6:BOARD_BootClockPLL150M	40	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/clock_config.c:332:6:BOARD_BootClockPLL1_150M	40	static

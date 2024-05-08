@@ -1,0 +1,7 @@
+/home/anuj/Documents/example_npx/CMSIS/Core/Include/./core_cm33.h:2575:22:__NVIC_SetPriority	16	static
+/home/anuj/Documents/example_npx/CMSIS/Core/Include/./core_cm33.h:3128:26:SysTick_Config	16	static
+/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/./fsl_gpio.h:210:20:GPIO_PortToggle	24	static
+/home/anuj/Documents/example_npx/devices/LPC55S69/drivers/./fsl_power.h:398:20:POWER_SetBodVbatLevel	16	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/led_blinky.c:30:6:SysTick_Handler	4	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/led_blinky.c:38:6:SysTick_DelayTicks	16	static
+/home/anuj/Documents/led_blinky/lpcxpresso55s69_led_blinky/led_blinky.c:49:5:main	8	static
